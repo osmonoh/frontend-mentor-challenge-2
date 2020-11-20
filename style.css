@@ -1,0 +1,140 @@
+/* 
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 
+
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+h5 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+}
+
+p,
+span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  /* background-size: 60vw; */
+  background-size: 84rem;
+  /* background-position: -15vw -30vw, 55vw 25vw; */
+  /* background-position: -16rem -40rem, 66rem 35rem; */
+  background-position: -22% 220%, 110% -190%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+  width: 28rem;
+  height: 33rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: white;
+  background-image: url(/images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+}
+
+.thumbnail {
+  width: 30%;
+  border: 4px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+}
+
+.details {
+  text-align: center;
+  padding: 2.4rem 0;
+}
+
+.name {
+  margin-bottom: 1rem;
+}
+
+.city {
+  font-size: 1.2rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top: 2px solid hsla(0, 0%, 59%, 0.2);
+}
+
+.stats {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.small-text {
+  padding: 0.4rem;
+  color: hsla(0, 0%, 59%);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  margin: auto 0 1.1rem 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
