@@ -10,12 +10,12 @@ html {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 h5 {
   color: hsl(229, 23%, 23%);
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 p,
