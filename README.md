@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor - Profile card component
 
 
 This is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges), a very nice website for practicing skills for learners of frontend technologies. I spend a decent amount of time on these when I was learning CSS, SASS and principles of responsive design. I absolutely loved doing them! 
